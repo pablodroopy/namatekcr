@@ -49,15 +49,32 @@
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/namatekcr-b-logo-128x128.png",
     "mbrsiteDomain": "ug0uo4fjlk",
-    "cssOptimize": false,
-    "lazyLoad": false,
+    "cssOptimize": true,
+    "lazyLoad": true,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
+    "cookiesAlert": {
+      "customDialogSelector": true,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
     "gdpr": false,
-    "pwa-switcher": false
+    "pwa-switcher": true,
+    "PWA": {
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/namatekcr-b-logo-512x512.png",
+      "themeColor": "#6592e6"
+    }
   },
   "pages": {
     "index.html": {
